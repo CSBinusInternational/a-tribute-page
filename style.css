@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header span {
+  color: #999;
+  font-weight: normal;
+}
+
+.header img {
+  width: 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  line-height: 2em;
+}
+
+.long {
+  text-align: center;
+}
